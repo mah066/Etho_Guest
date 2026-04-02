@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: theme('colors.navy.950');
+    color: theme('colors.slate.200');
+    @apply font-sans antialiased overflow-x-hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-white font-semibold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    @apply backdrop-blur-lg border border-white/10 rounded-2xl;
+  }
+
+  .glow-text {
+    filter: drop-shadow(0 0 15px rgba(45, 212, 191, 0.5));
+  }
+}
