@@ -8,7 +8,7 @@ export function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                     <div className="md:col-span-2">
                         <a href="#" className="text-2xl font-bold text-white tracking-wider mb-4 block">
-                            EthoGuest<span className="text-teal-400">.</span>
+                            EthoGuest<span className="text-teal-400"></span>
                         </a>
                         <p className="text-slate-400 max-w-sm">
                             A next-generation hospitality training platform blending expertise with immersive digital learning experiences to build the workforce of tomorrow.
@@ -26,9 +26,9 @@ export function Footer() {
                     <div>
                         <h4 className="text-white font-semibold mb-4">Contact Info</h4>
                         <ul className="space-y-2 text-slate-400">
-                            <li>contact@ethoguest.com</li>
-                            <li>+1 (555) 123-4567</li>
-                            <li>123 Innovation Way, Tech District, City 10010</li>
+                            <li>shammaskamal7@gmail.com</li>
+                            <li>+44 7859731738</li>
+                            <li>Address</li>
                         </ul>
                     </div>
                 </div>

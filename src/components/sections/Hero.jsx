@@ -21,7 +21,7 @@ export function Hero() {
                     >
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-teal-500/10 border border-teal-500/20 text-teal-400 text-sm font-medium mb-6">
                             <Sparkles className="w-4 h-4" />
-                            <span>Welcome to a new era of hospitality training</span>
+                            <span>Welcome to the Future of Hospitality Training</span>
                         </div>
 
                         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6">
@@ -29,36 +29,31 @@ export function Hero() {
                         </h1>
 
                         <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-xl leading-relaxed">
-                            EthoGuest uses metaverse-powered learning to help hospitality professionals and businesses train faster and more effectively through interactive gamified scenarios.
+                            EthoGuest transforms hospitality training with immersive, real-world simulations that helps teams learn faster, perform better, and deliver exceptional guest experiences.
                         </p>
 
                         <ul className="space-y-3 mb-10 max-w-xl text-slate-300">
                             <li className="flex items-center gap-3">
                                 <div className="w-1.5 h-1.5 rounded-full bg-teal-400" />
-                                Immersive hospitality training environments
+                                Realistic hotel & service simulations
                             </li>
                             <li className="flex items-center gap-3">
                                 <div className="w-1.5 h-1.5 rounded-full bg-teal-400" />
-                                Modules for customer service & management
+                                Customer service to management training
                             </li>
                             <li className="flex items-center gap-3">
                                 <div className="w-1.5 h-1.5 rounded-full bg-teal-400" />
-                                Gamified learning with challenges & rewards
+                                Gamified learning that drives engagement
                             </li>
                             <li className="flex items-center gap-3">
                                 <div className="w-1.5 h-1.5 rounded-full bg-teal-400" />
-                                Customizable training packages for businesses
+                                Fully customizable for your business
                             </li>
                         </ul>
 
                         <div className="flex flex-wrap items-center gap-4 w-full sm:w-auto">
-                            <Button size="lg" className="w-full sm:w-auto gap-2">
-                                Book a Demo
-                                <ArrowRight className="w-5 h-5" />
-                            </Button>
-                            <Button size="lg" variant="secondary" className="w-full sm:w-auto">
-                                Contact Us
-                            </Button>
+
+
                         </div>
                     </motion.div>
 

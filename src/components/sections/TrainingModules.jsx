@@ -8,22 +8,22 @@ const modules = [
     {
         icon: <Users className="w-8 h-8 text-teal-400" />,
         title: 'Customer Service Training',
-        description: 'Immersive scenarios handling difficult guests, perfecting the welcome experience, and building empathy through interactive roleplay.'
+        description: 'Train staff to handle real guest interactions with empathy, professionalism, and confidence. Immersive roleplay scenarios help teams practice service recovery, communication, and delivering memorable guest experiences.'
     },
     {
         icon: <Briefcase className="w-8 h-8 text-teal-400" />,
         title: 'Front Desk Operations',
-        description: 'Virtual walk-throughs of check-in systems, managing bookings, and handling high-pressure lobby situations in real-time.'
+        description: 'Prepare employees for the fast-paced demands of reception and check-in environments. Teams can practice bookings, guest requests, issue handling, and high-pressure front desk situations in a realistic virtual setting.'
     },
     {
         icon: <Award className="w-8 h-8 text-teal-400" />,
-        title: 'Advanced Management',
-        description: 'Strategic leadership, team motivation, and crisis management. Designed for supervisors stepping into demanding leadership roles.'
+        title: 'Leadership & Management Training',
+        description: 'Develop supervisors and managers with scenario-based training focused on leadership, decision-making, and team performance. Build confidence in handling conflict, motivating staff, and managing operational challenges effectively.'
     },
     {
         icon: <Settings className="w-8 h-8 text-teal-400" />,
-        title: 'Custom Business Packages',
-        description: 'Tailored VR curriculum matching your specific brand standards, layout, and operational procedures for your dedicated staff.'
+        title: 'Custom Training Solutions',
+        description: 'Create tailored VR training programs designed around your brand standards, workflows, and business goals. EthoGuest helps you deliver learning experiences that match your environment and the way your teams actually work.'
     }
 ];
 

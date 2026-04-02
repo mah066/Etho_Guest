@@ -29,7 +29,7 @@ export function Navbar() {
                 <div className="flex items-center justify-between">
                     <div className="flex-shrink-0">
                         <a href="#" className="text-2xl font-bold text-white tracking-wider">
-                            EthoGuest<span className="text-teal-400">.</span>
+                            EthoGuest<span className="text-teal-400"></span>
                         </a>
                     </div>
 
@@ -44,7 +44,7 @@ export function Navbar() {
                                 </li>
                             ))}
                         </ul>
-                        <Button size="sm">Book a Demo</Button>
+
                     </nav>
 
                     {/* Mobile Menu Button */}
@@ -73,9 +73,7 @@ export function Navbar() {
                                     </a>
                                 </li>
                             ))}
-                            <li className="pt-2">
-                                <Button className="w-full" onClick={() => setMobileMenuOpen(false)}>Book a Demo</Button>
-                            </li>
+
                         </ul>
                     </div>
                 )}
