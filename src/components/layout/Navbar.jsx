@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { Container } from './Container';
+import logo from '../../assets/EthoGuestLogo.jpeg';
 
 export function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -28,7 +29,12 @@ export function Navbar() {
             <Container>
                 <div className="flex items-center justify-between">
                     <div className="flex-shrink-0">
-                        <a href="#" className="text-2xl font-bold text-white tracking-wider">
+                        <a href="#" className="flex items-center gap-2 text-2xl font-bold text-white tracking-wider">
+                             <img
+                                src={logo}
+                                alt="EthoGuest logo"
+                                className="h-20 w-30 object-contain"
+                                />
                             EthoGuest<span className="text-teal-400"></span>
                         </a>
                     </div>
