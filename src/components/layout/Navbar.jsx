@@ -35,7 +35,14 @@ export function Navbar() {
                                 alt="EthoGuest logo"
                                 className="h-20 w-30 object-contain"
                                 />
-                            EthoGuest<span className="text-teal-400"></span>
+
+                        <span
+  className="text-3xl font-semibold tracking-wide"
+  style={{ fontFamily: "'Cinzel', serif" }}
+>
+  EthoGuest UK Ltd
+</span>
+
                         </a>
                     </div>
 

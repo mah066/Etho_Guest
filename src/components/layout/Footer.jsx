@@ -34,7 +34,7 @@ export function Footer() {
                 </div>
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
                     <p className="text-slate-500 text-sm">
-                        &copy; {new Date().getFullYear()} EthoGuest. All rights reserved.
+                        &copy; {new Date().getFullYear()} EthoGuest UK Limited. All rights reserved.
                     </p>
                     <div className="flex items-center gap-4 text-slate-400">
                         {/* Social icons placeholders */}
