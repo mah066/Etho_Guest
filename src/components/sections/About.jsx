@@ -36,23 +36,7 @@ export function About() {
                         </div>
                     </motion.div>
 
-                    <motion.div
-                        initial={{ opacity: 0, x: 30 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.6 }}
-                        className="relative w-full aspect-video rounded-2xl overflow-hidden glass-card p-2"
-                    >
-                        <div className="w-full h-full bg-navy-800 rounded-xl flex items-center justify-center relative overflow-hidden">
-                            <div className="absolute inset-0 opacity-20 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-teal-500 via-navy-900 to-navy-950" />
-                            <div className="z-10 text-center p-8">
-                                <div className="w-16 h-16 rounded-full bg-white/10 mx-auto flex items-center justify-center mb-4 border border-white/20 backdrop-blur-sm transition-transform hover:scale-110 cursor-pointer">
-                                    <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
-                                </div>
-                                <span className="text-white font-medium tracking-wide">Watch the Vision</span>
-                            </div>
-                        </div>
-                    </motion.div>
+
                 </div>
             </Container>
         </section>
