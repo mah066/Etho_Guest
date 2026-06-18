@@ -19,9 +19,11 @@ export function Hero() {
                         transition={{ duration: 0.8 }}
                         className="flex flex-col items-start text-left"
                     >
-                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-teal-500/10 border border-teal-500/20 text-teal-400 text-sm font-medium mb-6">
-                            <Sparkles className="w-4 h-4" />
-                            <span>Welcome to the Future of Hospitality Training</span>
+                        <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-teal-500/10 border border-teal-500/20 mb-6">
+                            <Sparkles className="w-3.5 h-3.5 text-teal-400" />
+                            <span className="text-teal-400 text-sm font-semibold">Creative Pathway to Success</span>
+                            <span className="w-px h-3.5 bg-teal-500/30" />
+                            <span className="text-teal-400/70 text-xs tracking-wider">Learn · Grow · Succeed</span>
                         </div>
 
                         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6">
@@ -29,7 +31,7 @@ export function Hero() {
                         </h1>
 
                         <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-xl leading-relaxed">
-                            EthoGuest transforms hospitality training with immersive, real-world simulations that helps teams learn faster, perform better, and deliver exceptional guest experiences.
+                           EthoGuest is an innovative training platform that transforms training through immersive, real-world simulations, helping teams learn faster, perform better, and deliver exceptional guest experiences.
                         </p>
 
                         <ul className="space-y-3 mb-10 max-w-xl text-slate-300">
@@ -47,7 +49,7 @@ export function Hero() {
                             </li>
                             <li className="flex items-center gap-3">
                                 <div className="w-1.5 h-1.5 rounded-full bg-teal-400" />
-                                Fully customizable for your business
+                                Fully customisable for your business
                             </li>
                         </ul>
 

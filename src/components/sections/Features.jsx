@@ -66,7 +66,7 @@ export function Features() {
                     >
                         <h2 className="text-3xl md:text-4xl font-bold mb-6">Built for Impact</h2>
                         <p className="text-lg text-slate-300 mb-8 leading-relaxed">
-                            We're not just moving manuals to screens. We're transforming how hospitality skills are acquired. EthoGuest leverages the latest in spatial computing to deliver training that is felt, remembered, and instantly applicable on the floor.
+                            We're not just moving manuals to screens. We're transforming how skills are acquired. EthoGuest leverages the latest in spatial computing to deliver training that is felt, remembered, and instantly applicable on the floor.
                         </p>
 
                         <div className="space-y-6">

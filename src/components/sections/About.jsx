@@ -16,9 +16,9 @@ export function About() {
                         transition={{ duration: 0.6 }}
                         className="flex flex-col items-start"
                     >
-                        <h2 className="text-3xl md:text-4xl font-bold mb-6">Redefining Hospitality Education for the Modern Workforce</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold mb-6">Redefining Education for the Modern Workforce</h2>
                         <p className="text-lg text-slate-300 mb-6 leading-relaxed">
-                            EthoGuest is a next-generation platform blending unparalleled hospitality expertise with advanced digital learning environments. We believe that immersive training directly translates to superior guest experiences.
+                            EthoGuest is a next-generation platform blending unparalleled expertise with advanced digital learning environments. We believe that immersive training directly translates to superior guest experiences.
                         </p>
                         <p className="text-lg text-slate-300 leading-relaxed mb-8">
                             Our mission is to replace outdated manuals and passive videos with dynamic, interactive scenarios. By combining virtual reality (VR) with gamified metaverse environments, we empower your staff to learn faster, retain more, and engage deeply with their professional development.

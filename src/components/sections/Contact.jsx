@@ -4,7 +4,7 @@ import { Container } from '../layout/Container';
 import { Button } from '../ui/Button';
 
 export function Contact() {
-  const [state, handleSubmit] = useForm('mkopvbvy');
+  const [state, handleSubmit] = useForm('xnjykjjl');
 
   return (
     <section id="contact" className="py-24 relative overflow-hidden bg-navy-900 border-t border-white/5 scroll-mt-24">
@@ -31,7 +31,7 @@ export function Contact() {
                   type="text"
                   id="name"
                   name="name"
-                  placeholder="Jane Doe"
+                  placeholder=""
                   className="w-full bg-navy-950 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition-all"
                   required
                 />
@@ -44,7 +44,7 @@ export function Contact() {
                   type="email"
                   id="email"
                   name="email"
-                  placeholder="jane@hotel.com"
+                  placeholder=""
                   className="w-full bg-navy-950 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition-all"
                   required
                 />
@@ -57,7 +57,7 @@ export function Contact() {
                   type="text"
                   id="company"
                   name="company"
-                  placeholder="Grand Horizon Hotels"
+                  placeholder=""
                   className="w-full bg-navy-950 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition-all"
                 />
               </div>

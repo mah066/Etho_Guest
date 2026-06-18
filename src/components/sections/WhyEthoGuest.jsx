@@ -8,7 +8,7 @@ export function WhyEthoGuest() {
             <div className="absolute inset-0 bg-gradient-to-b from-navy-900/50 to-transparent pointer-events-none" />
             <Container className="relative z-10 text-center">
                 <h2 className="text-3xl md:text-4xl font-bold mb-16 max-w-3xl mx-auto">
-                    Why Top Hospitality Brands Choose EthoGuest
+                    Why Top Brands Choose EthoGuest
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

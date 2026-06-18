@@ -36,7 +36,7 @@ export function TrainingModules() {
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">Comprehensive Training Modules</h2>
                     <p className="text-lg text-slate-300">
-                        Targeted curriculums designed to elevate every aspect of your hospitality business, delivered through the power of spatial computing.
+                        Targeted curriculums designed to elevate every aspect of your business, delivered through the power of spatial computing.
                     </p>
                 </div>
 
